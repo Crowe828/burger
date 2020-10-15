@@ -99,5 +99,5 @@ var orm = {
   },
 };
 
-// Export the orm
+// Export the orm to models/burgers.js
 module.exports = orm;
