@@ -1,0 +1,29 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crowe828/burger.git"
+  },
+  "keywords": [
+    "node",
+    "mysql",
+    "orm"
+  ],
+  "author": "Christian Rowe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crowe828/burger/issues"
+  },
+  "homepage": "https://github.com/Crowe828/burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1"
+  }
+}
