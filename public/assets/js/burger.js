@@ -13,7 +13,6 @@ $(function () {
       type: "PUT",
       data: newDevourState,
     }).then(function () {
-      console.log("changed devour to", newDevour);
       // Reload page to get updated list
       location.reload();
     });
@@ -32,7 +31,6 @@ $(function () {
       type: "POST",
       data: newBurger,
     }).then(function () {
-      console.log("created new burger");
       // Reload page to get updated list
       location.reload();
     });
@@ -45,7 +43,6 @@ $(function () {
     $.ajax("/api/burgers/" + id, {
       type: "DELETE",
     }).then(function () {
-      console.log("deleted burger", id);
       // Reload the page to get the updated list
       location.reload();
     });
