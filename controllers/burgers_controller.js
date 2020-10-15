@@ -26,6 +26,7 @@ router.post("/api/burgers", function (req, res) {
   );
 });
 
+// PUT route
 router.put("/api/burgers/:id", function (req, res) {
   var condition = "id = " + req.params.id;
 
@@ -45,6 +46,19 @@ router.put("/api/burgers/:id", function (req, res) {
       }
     }
   );
+});
+
+// DELETE route
+router.delete("/api/burgers/:id", function (req, res) {
+  var condition = "id = " + req.params.id;
+  burger.delete(condition, function (result) {
+    if (result.affectedRows == 0) {
+      // If no rows were changed display a 404
+      return res.status(404).end();
+    } else {
+      res.status(200).end();
+    }
+  });
 });
 
 // Export routes to server.js file
