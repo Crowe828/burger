@@ -19,6 +19,7 @@ BurgerTime is a restaurant application that lets users input the names of burger
 ## Images
 
 - Main Display:
+
 ![BurgerTime](https://github.com/Crowe828/burger/blob/main/public/assets/img/burgertime.png)
 
 ## Installation
