@@ -1,6 +1,7 @@
+{{!-- List Item for each burger entered --}}
 <li class="list-group-item">
 	{{burger_name}}
-
+	
 	<button class="btn btn-outline-light btn-sm change-devour" data-id="{{id}}" data-newdevour="{{devour}}">
 		{{#if devour}}YUM!{{else}}Another!{{/if}}
 	</button>
