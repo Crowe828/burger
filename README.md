@@ -2,7 +2,7 @@
 
 ## Description
 
-BurgerTime is a restaurant application that lets users input the names of burgers they'd like to eat, as well as ones that they have had before.
+BurgerTime is a restaurant application that lets users input the names of burgers they'd like to eat as well as ones that they have had before.
 
 ### Important
 
