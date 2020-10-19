@@ -2,6 +2,10 @@
 
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
 
+## Deployment
+
+[This application can be found here](https://shrouded-plateau-24290.herokuapp.com)
+
 ## Description
 
 BurgerTime is a restaurant application that lets users input the names of burgers they'd like to eat as well as ones that they have had before. Reach your burger consumption goals with this retro-inspired web application.
@@ -18,9 +22,7 @@ BurgerTime is a restaurant application that lets users input the names of burger
 
 ## Images
 
-- Main Display:
-
-![BurgerTime](https://github.com/Crowe828/burger/blob/main/public/assets/img/burgertime.png)
+- Main Display: ![BurgerTime](https://github.com/Crowe828/burger/blob/main/public/assets/img/burgertime.png)
 
 ## Installation
 
